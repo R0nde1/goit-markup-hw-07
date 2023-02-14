@@ -1,11 +1,22 @@
-.header {
-    border-bottom: 1px solid #ECECEC;
+
+
+.wrapper {
     display: flex;
-        align-items: center;
+    align-items: center;
         justify-content: space-between;
         border-bottom: 1px solid #ECECEC;
         background: var(--primary-bg-color);
 }
+
+.wrapper-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ECECEC;
+    background: var(--primary-bg-color);
+}
+
+
 
 .nav {
     display: flex;
